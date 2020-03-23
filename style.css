@@ -1,0 +1,83 @@
+
+html {
+    width: 100%;
+    height: 100%;}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier Prime', monospace;
+    background-color: black}
+
+.wrapper {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(7, 200px);
+    grid-template-rows: repeat(7, 200px);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    color: white}
+    
+.logo {grid-area: 1 / 1 / 2 / 2;}
+
+.logo img { width: 100%;
+            height: auto}
+
+
+.nazov { 
+    grid-area: 1 / 2 / 2 / 5;
+    text-align: center;
+    font-size: 42px;
+    vertical-align: center;}
+
+.nav {grid-area: 1 / 5 / 2 / 8;}
+.nav img {  width: 100px;
+            height: 100px;
+            margin-top: 30px }
+
+.text1 {grid-area: 2 / 1 / 4 / 4;
+        margin-right: 40px}
+
+.text2 {grid-area: 2 / 5 / 4 / 8;
+        margin-left: 40px}
+
+.text3 {grid-area: 4 / 3 / 7 / 6;  
+        text-align: center}
+
+.text4 {grid-area: 4 / 1 / 6 / 3;}
+
+.text5 {grid-area: 5 / 6 / 8 / 8;}
+
+.foto1 { grid-area: 2 / 4 / 3 / 5;}
+.foto1 img{ width: 100%;
+            height: auto}
+
+.foto2 { grid-area: 3 / 4 / 4 / 5;}
+.foto2 img {width: 100%;
+            height: auto}
+
+.foto3 { grid-area: 6 / 1 / 8 / 3;}
+.foto3 img {width: 100%;
+            height: auto}
+
+.foto4 { grid-area: 4 / 6 / 5 / 7;}
+.foto4 img {width: 100%;
+            height: auto}
+
+.foto5 { grid-area: 4 / 7 / 5 / 8;}
+.foto5 img {width: 100%;
+            height: auto}
+
+.foto6 { grid-area: 7 / 3 / 8 / 4;}
+.foto6 img {width: 100%;
+            height: auto}
+
+.foto7 { grid-area: 7 / 4 / 8 / 5;}
+.foto7 img {width: 100%;
+            height: auto}
+
+.foto8 { grid-area: 7 / 5 / 8 / 6;}
+.foto8 img {width: 100%;
+            height: auto}
+
+
